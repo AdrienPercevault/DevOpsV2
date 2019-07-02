@@ -1,0 +1,21 @@
+<h1>Unite de production n°2</h1>
+
+<div *ngFor="let item of dataSource">
+    <section class="card" (click)="goToDetail(item.idAutomate, item.idUnit)">
+        <article class="container">
+            <h1>ID : {{ item.id }}</h1>
+            <div>idAutomate : {{ item.idAutomate }}</div>
+            <div>typeAutomate : {{ item.typeAutomate }}</div>
+            <div>tempTank : {{ item.tempTank }}</div>
+            <div>tempExt : {{ item.tempExt }}</div>
+            <div>weightTankMilk : {{ item.weightTankMilk }}</div>
+            <div>weightFinishProduct : {{ item.weightFinishProduct }}</div>
+            <div>phMeasurement : {{ item.phMeasurement }}</div>
+            <div>kpMeasurement : {{ item.kpMeasurement }}</div>
+            <div>NaCIConcentration : {{ item.NaCIConcentration }}</div>
+            <div>bacterialLevelSalmonella : {{ item.bacterialLevelSalmonella }}</div>
+            <div>bacterialLevelEColi : {{ item.bacterialLevelEColi }}</div>
+            <div>bacterialLevelListeria : {{ item.bacterialLevelListeria }}</div>
+        </article>
+    </section>
+</div>

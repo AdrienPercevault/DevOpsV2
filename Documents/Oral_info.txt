@@ -1,0 +1,17 @@
+Documentation général, et appréhension du projet.
+
+
+Fonctionnalités :
+	Script python (v1 / v2)
+	Docker (connexion, stockage ...)
+	Base de données (Création, administration et backup)
+	Site web / api (v1 / v2)
+	Automatisation (crontab)
+	Jenkins et script test unitaire.
+
+
+Gestion d'équipe : OK - aide et transfere de vm.
+Technologies supplémentaires : adminer, angular, node / express
+
+Prise de hauteur :
+	Monté en compétence

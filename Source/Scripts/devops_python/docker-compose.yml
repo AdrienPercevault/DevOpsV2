@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  
+  pythonUnite1:
+    image: unite1
+    volumes: 
+      - /home/anthony/Documents/devops_python/Json:/Documents/devops_python/Json
+
+  pythonUnite2:
+    image: unite2
+    volumes: 
+      - /home/anthony/Documents/devops_python/Json:/Documents/devops_python/Json
+  
+  pythonUnite3:
+    image: unite3
+    volumes: 
+      - /home/anthony/Documents/devops_python/Json:/Documents/devops_python/Json
+
+  pythonUnite4:
+    image: unite4
+    volumes: 
+      - /home/anthony/Documents/devops_python/Json:/Documents/devops_python/Json
+
+  pythonUnite5:
+    image: unite5
+    volumes: 
+      - /home/anthony/Documents/devops_python/Json:/Documents/devops_python/Json
+
+  insertDonnee:
+    image: datainsert
+    volumes:
+      - /home/anthony/Documents/devops_python/Json:/Documents/devops_python/json/

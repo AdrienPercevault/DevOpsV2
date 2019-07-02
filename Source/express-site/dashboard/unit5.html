@@ -1,0 +1,22 @@
+<h1>Unité de production 5</h1>
+<div>
+    {{# each items }}
+        <section class="unit5">
+            <article class="item">
+                <h1>ID : {{ this.id }}</h1>
+                <div>idAutomate : {{ this.idAutomate }}</div>
+                <div>typeAutomate : {{ this.typeAutomate }}</div>
+                <div>tempTank : {{ this.tempTank }}</div>
+                <div>tempExt : {{ this.tempExt }}</div>
+                <div>weightTankMilk : {{ this.weightTankMilk }}</div>
+                <div>weightFinishProduct : {{ this.weightFinishProduct }}</div>
+                <div>phMeasurement : {{ this.phMeasurement }}</div>
+                <div>kpMeasurement : {{ this.kpMeasurement }}</div>
+                <div>NaCIConcentration : {{ this.NaCIConcentration }}</div>
+                <div>bacterialLevelSalmonella : {{ this.bacterialLevelSalmonella }}</div>
+                <div>bacterialLevelEColi : {{ this.bacterialLevelEColi }}</div>
+                <div>bacterialLevelListeria : {{ this.bacterialLevelListeria }}</div>
+            </article>
+        </section>
+    {{/each}}
+</div>
